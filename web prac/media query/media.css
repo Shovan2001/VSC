@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+p{
+    background-color: cyan;
+    padding: 80px;
+    border: 2px black solid;
+    margin: 50px;    
+}
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+}

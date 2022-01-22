@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+        <form action="">
+            <h2 class="pay">PAYMENT FORM</h2> 
+            <hr>
+           
+            <p>Required fields followed by * must be filled</p>
+            <p>NAME*:<br><input type="text" name="name" placeholder="RAM ROY" required></p>
+            <fieldset>
+               <legend>GENDER*</legend>
+               <p> Male<input type="radio" name="Gender" id="male" required> 
+                  Female <input type="radio" name="Gender" id="female" required>
+               </p>
+            </fieldset>
+            <p>ADDRESS: <br> <textarea name="address" id="address" cols="30" rows="10"></textarea></p>
+            <p>EMAIL*: <br> <input type="email" name="email" id="email" required> </p>
+            <p>PINCODE*: <br><input type="number" name="pincode" id="pincode" required></p>
+         
+            <h2>Payment Information</h2>
+         <p>CARD HOLDER NAME* <br><input type="text" name="name1" id="name1" required></p>
+            <p>Select Card Type*<br> 
+            <select name="card type" id="card type" required>
+                  <option value="">--select the card--</option>
+                  <option value="visa">VISA</option>
+                  <option value="rupay">RUPAY</option>
+                  <option value="mastercard">MASTERCARD</option>
+            </select>
+         </p>
+         <p>CARD NUMBER*:<br> <input type="number" name="card number" id="card number" required></p>
+            <p>EXPIRIATION DATE* <br><input type="date" name="date" id="date" required></p>
+            <p>CVV*<br> <input type="password" name="cvv" id="cvv" required></p>
+            <input type="submit" value="PAY NOW">
+         </form>
+      </div>
+    
+</body>
+</html>
