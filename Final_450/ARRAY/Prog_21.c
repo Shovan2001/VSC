@@ -26,7 +26,7 @@
  
         int sum = 0; // Initialize the sum of elements
         int max_len = 0; // Initialize result
- 
+        // abcd
         for (int i = 0; i < n; i++) 
         {
             sum += A[i];
