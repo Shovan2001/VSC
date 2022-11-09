@@ -56,7 +56,7 @@ function TextArea() {
     <div className="container my-3">
         <h3>Summary</h3>
         <p>
-            Your text has {text.length} characters, {text.split(" ").length} words
+            Your text has {text.length} characters, {text.split(" ").length-1} words
         </p>
         <p>
             User will approx {0.008*text.split(" ").length} minutes to read this

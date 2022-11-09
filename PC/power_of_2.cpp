@@ -15,3 +15,4 @@ int main()
     else
     cout<<"not a power of 2";
 }
+    
