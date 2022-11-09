@@ -10,4 +10,5 @@
         if(now<0)
             now=0;
     }
+    return before;
 */
